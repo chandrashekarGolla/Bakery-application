@@ -1,0 +1,120 @@
+.category{
+	margin-top: 100px;
+	background-color: #f2f1f6;
+}
+
+
+.category .card-item{
+    background-color: white;
+    border-radius:10px;
+    width:350px;
+	margin-top:50px;
+
+  }
+
+
+
+/* *{
+	margin: 0;
+	padding: 0;
+	text-transform: capitalize;
+	text-decoration: none;
+	list-style: none;
+} */
+
+/* .categories{
+	margin-top:60px;
+}
+
+.heading{
+	position: fixed;
+	background-color: #ffffff;
+	box-shadow: 0 2px 2px rgba(0,0,0,.1);
+	display: flex;
+} */
+
+/* .heading .navbar ul{
+	list-style: none;
+	text-decoration: none;
+}
+
+.heading .navbar ul li{
+	list-style:none;
+	text-transform: capitalize;
+	position: relative;
+	float: left;
+	justify-content:space-evenly;
+}
+
+.heading .navbar ul li a{
+	font-size:10px;
+	padding:2px;
+	display: block;
+	text-decoration: none;
+}
+
+.heading .navbar ul li a:hover{
+	color: #fff;
+	background: #333;
+}
+
+.heading .navbar ul li ul{
+	/* position: absolute;
+	left:0; 
+	width:200px;
+	background: #fff;
+	display: none;
+} */
+/* 
+
+.heading .navbar ul li ul li{
+	width: 100%;
+	border-top:  1px solid rgba(0,0,0,.1);
+}
+
+.heading .navbar ul li :focus-within >ul,
+.heading .navbar ul li:hover >ul{
+	display: initial;
+}
+#menu-bar{
+	display: none;
+}
+
+.heading label{
+	font-size: 10px;
+	color:#333;
+	cursor:pointer;
+	display: none;
+}
+@media (max-width:991px){
+	.heading{
+		padding:2px;
+	}
+
+	label{
+		display: initial;
+	}
+
+	.heading .navbar{
+		position:absolute;
+		top:100%;left:0;right:0;
+		background: #fff;
+		border-top: 1px solid rgba(0,0,0,.1);
+		display: none;
+
+	}
+
+	.heading .navbar ul li{
+		width:100%;
+	}
+
+	.heading .navbar ul li ul{
+		position: relative;
+		width: 100%;
+	}
+
+	#menu-bar:checked ~.navbar{
+		display: initial;
+	}
+
+} */

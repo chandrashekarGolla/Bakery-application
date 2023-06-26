@@ -1,0 +1,100 @@
+/* .cards{
+    display: flex;
+    padding: 20px;
+    width:300px;
+    margin-left:20px;
+    /* 
+    
+}
+
+/* .card-items{
+    justify-self: center;
+    border-radius: 200px;
+}
+.cardborder{
+    width: 100%;
+    background-color: #fff7ee;
+    align-items: center;
+    justify-content: space-evenly;
+} */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .cards {
+    /* transform-style: preserve-3d;
+    position: relative; 
+    padding: 20px;
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 15px;
+    background: linear-gradient(
+      25deg,
+      rgb(252, 252, 252) 0%,
+      rgb(218, 170, 92) 86%
+    );
+    transition: all 0.1s ease;
+  } */
+  /* .cake-img {
+    position: relative;
+    width: 100%;
+    transition: all 0.5s ease;
+    border-radius: 20px;
+  }
+  .button-box {
+    width: 100%;
+  }
+  .view{
+    cursor: pointer;
+    width: 100%;
+    border-radius: 30px;
+    padding: 0.8rem 1.5rem;
+    font-weight: bold;
+    border: none;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    background-color: rgba(248, 177, 60, 1);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+  }
+  .view:hover {
+    background-color: rgb(222, 157, 54);
+  }
+  
+  .cards{
+    padding: 30px;
+  }
+
+  .food-icon{
+    position:absolute;
+    top:0%;
+    right:0%;
+    border-radius:100px;
+    width: 40px;
+    padding: 5px;
+  }*/

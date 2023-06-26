@@ -1,0 +1,33 @@
+.container{
+    margin-top:70px;
+    /* border-radius: 30px;
+    height: 20px;
+    width: 100%; */
+    border-color:black;
+    
+}
+.cart-items{
+    display:flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    width:600px;
+    border:2px 2px solid black;
+}
+
+.cart-items .items img{
+      display: block;
+      margin: auto;
+      border-radius: 5px;
+      width:60px;
+      height: 60px;
+}
+.cart-items .items{
+    background-color:#ffff;
+    align-items: center;
+    padding:10px;
+    margin: 10px;
+    border-radius: 10px;
+    /* display: flex;
+    justify-content: space-around; */
+    box-shadow: 2px 2px 2px grey;
+}

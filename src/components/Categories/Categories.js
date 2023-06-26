@@ -38,7 +38,6 @@ const Categories = () => {
       case 'icecreams':
         setSelectedComponent(<Icecreams />);
         break;
-      // Add cases for additional components
       default:
         setSelectedComponent(null);
     }

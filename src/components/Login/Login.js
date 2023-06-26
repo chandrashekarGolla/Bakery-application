@@ -38,7 +38,6 @@ export default Login;
 
 
 
-// // Login.js
 
 // import React, { useState } from 'react';
 
@@ -51,20 +50,19 @@ export default Login;
 //   const handlePhoneNumberSubmit = async (e) => {
 //     e.preventDefault();
 
-//     // TODO: Perform validation on the phone number, e.g., format, length, etc.
 //     if (!phoneNumber) {
 //       setError('Please enter a valid phone number');
 //       return;
 //     }
 
-//     // Assuming phone number is valid, move to OTP entry
+//    
 //     setIsPhoneNumberSubmitted(true);
 //   };
 
 //   const handleOTPSubmit = async (e) => {
 //     e.preventDefault();
 
-//     // TODO: Perform validation on the OTP, e.g., length, numeric, etc.
+//     
 //     if (!otp) {
 //       setError('Please enter a valid OTP');
 //       return;
@@ -81,7 +79,7 @@ export default Login;
 
 //       if (response.ok) {
 //         const { token } = await response.json();
-//         // TODO: Handle successful login and store the token
+//         
 //       } else {
 //         const error = await response.json();
 //         setError(error.message);

@@ -157,47 +157,7 @@ app.post('/register', async (req, res) => {
   }
 });
 
-// // Register endpoint
-// app.post('/register', (req, res) => {
-//   const { name, phoneNumber } = req.body;
-//   const otp = Math.floor(1000 + Math.random() * 9000);
 
-//   // Send OTP via SMS
-//   twilioClient.messages
-//     .create({
-//       body: `Your OTP for bakery app registration is: ${otp}`,
-//       from: '6281946615',
-//       to: phoneNumber,
-//     })
-//     .then(() => {
-//       // Store user details in the database
-//       MongoClient.connect(mongoUrl, (err, client) => {
-//         if (err) {
-//           console.log('Error connecting to MongoDB:', err);
-//           res.status(500).json({ error: 'Failed to register user.' });
-//         } else {
-//           const db = client.db(dbName);
-//           const usersCollectionobj = db.collection('usersCollection');
-//           const newUser = { name, phoneNumber, otp };
-
-//           usersCollectionobj.insertOne(newUser, (err, result) => {
-//             if (err) {
-//               console.log('Error storing user details:', err);
-//               res.status(500).json({ error: 'Failed to register user.' });
-//             } else {
-//               res.status(200).json({ message: 'User registered successfully.' });
-//             }
-//           });
-
-//           client.close();
-//         }
-//       });
-//     })
-//     .catch((err) => {
-//       console.log('Error sending OTP:', err);
-//       res.status(500).json({ error: 'Failed to register user.' });
-//     });
-// });
 
 // // Login endpoint
 // app.post('/login', (req, res) => {
